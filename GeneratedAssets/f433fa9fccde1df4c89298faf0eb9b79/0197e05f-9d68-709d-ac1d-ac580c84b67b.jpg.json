@@ -1,0 +1,19 @@
+{
+    "asset": "f433fa9fccde1df4c89298faf0eb9b79",
+    "fileName": "0197e05f-9d68-709d-ac1d-ac580c84b67b.jpg",
+    "prompt": "create a minimalist energy icon in the form of a yellow lightning bolt with a black outline",
+    "negativePrompt": "",
+    "model": "55f71215-6b73-4707-881e-69c61aca68c0",
+    "customSeed": -1,
+    "w3CTraceId": "336c75cb98c057c86c912c7c136dffd0",
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0
+}

@@ -1,0 +1,56 @@
+# Unity-generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+MemoryCaptures/
+UserSettings/
+
+# IDE files
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+
+# Rider
+.idea/
+*.sln.iml
+
+# OS system files
+.DS_Store
+Thumbs.db
+
+# Asset Store packages
+*.unitypackage
+
+# Unity Collab & Plastic SCM
+.collabignore
+.plastic/
+Ignore.conf
+
+# Crash reports
+*.stacktrace
+
+# Addressables (optional build output)
+Assets/AddressableAssetsData/*/Build/
+Assets/AddressableAssetsData/*/AssetBundles/
+
+# Builds
+*.apk
+*.aab
+*.xcodeproj
+*.xcworkspace
+*.app
+*.ipa
+*.exe

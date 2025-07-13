@@ -1,0 +1,19 @@
+{
+    "asset": "888b2076f0e1e26418c127a8ecd55584",
+    "fileName": "0197e18f-b392-7fae-82d8-242a5a85fbfc.png",
+    "prompt": "generate a canvas with 6 faces of a dice",
+    "negativePrompt": "",
+    "model": "426bd2d1-03db-4d52-9879-615f8a456345",
+    "customSeed": -1,
+    "w3CTraceId": "d7c18213c835fc4bc451b6134924d8c9",
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0
+}
