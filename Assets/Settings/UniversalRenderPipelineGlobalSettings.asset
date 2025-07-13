@@ -78,6 +78,7 @@ MonoBehaviour:
       - rid: 958004540290367492
       - rid: 958004540290367494
       - rid: 958004540290367495
+      - rid: 958004540290367496
   m_AssetVersion: 8
   m_ObsoleteDefaultVolumeProfile: {fileID: 0}
   m_RenderingLayerNames:

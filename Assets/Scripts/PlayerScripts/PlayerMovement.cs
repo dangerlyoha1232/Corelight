@@ -19,11 +19,13 @@ namespace PlayerScripts
 
         private PlayerInput _playerInput;
         private EnergyWallet _playerWallet;
+        private Animator _animator;
 
         public void Init()
         {
             _playerInput = ServiceLocator.Current.Get<PlayerInput>();
             _playerWallet = ServiceLocator.Current.Get<EnergyWallet>();
+            _animator = GetComponent<Animator>();
             
             EventBus.OnActivityOpen += IsActivityPopupOpen;
             EventBus.OnActivityClose += IsActivityPopupClosed;
@@ -43,6 +45,8 @@ namespace PlayerScripts
             }
             Move();
             PlayerFinishedPath();
+            
+            _animator.SetBool("IsMoving", _isMoving);
         }
 
         private void CreatePath()
@@ -55,9 +59,12 @@ namespace PlayerScripts
                 if (hit.collider.TryGetComponent<Plate>(out var plate) && !_isActivityPopupOpen && !_isMoving)
                 {
                     _notConfirmedPath = PlatePath.Instance.GeneratePath(_currentPlate, plate);
-                    
+
                     if (_playerWallet.Energy > 0 && _playerWallet.IsSpendSuccessful(_notConfirmedPath.Count - 1))
+                    {
                         _path = _notConfirmedPath;
+                        transform.LookAt(new Vector3(plate.transform.position.x, transform.position.y, plate.transform.position.z));
+                    }
                 }
             }
         }
